@@ -1,11 +1,15 @@
+a:hover {
+    color: red;
+}
+
 h1 {
-    font-family: arial;
-    font-size: 30px;
+    font-family: "Impact", Charcoal, sans-serif;
+    font-size: 60px;
     color: #222; 
 }
 
 img {
-    height : 300px;
+    width: 100%;
 }
 
 .thickborder {
@@ -14,17 +18,19 @@ img {
 }
 
 blockquote {
-     border-left: 4px solid #888;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     border-left: 4px solid #222;
      padding-left: 5px;
      font-size: 20px;
-     color: #477;
+     color: 	#FFFAF0;
      max-width: 150px;
 }
 
-p {
+p { 
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
      text-align: right;
      font-size: 16px;
-     color: #744;
+     color: 	#FFFAF0;
      padding: 3px;
 }
 
@@ -32,4 +38,38 @@ div {
     border: 2px solid #222;
     float:left;
     margin: 5px;
+}
+
+selector {
+    float: left;
+}
+
+
+:root { 
+    background: #888;
+}
+
+@media screen and (min-width: 0) and (max-width: 500px) {
+    img {
+        height : 150px;
+    }
+}
+
+@media screem and (min-width:501px) and (max-width:1280px) {
+    img {
+         height : 170px;
+    }
+}
+
+@media screem and (min-width:1281px) and (max-width:1440px) {
+    img {
+         height : 180px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    img {
+        height : 200px;
+    }
+    
 }
