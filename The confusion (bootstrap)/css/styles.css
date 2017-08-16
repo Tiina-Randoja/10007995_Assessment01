@@ -1,8 +1,27 @@
 
-.centerContainer {
-    position: relative;
-    left: 37%;
-    width: 90%;
-    margin-left: -30%;
-    border-color: #888;
+
+.img-responsive {
+
+  max-height: 350px;
 }
+
+blockquote {
+     font-family: 'Josefin Sans', sans-serif;
+     border-left: 8px solid #222;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 10%;
+     font-size: 107%;
+     color: 	#222;
+     max-width: 370px;
+     text-align: justify;
+}
+    h2 {  
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: #222; 
+    padding-top: 2%;
+}
+
