@@ -1,209 +1,164 @@
-:root { 
- --mainbackgroundcolour: #888;
+:root {
+    --mainbackgroundcolour: #888;
 }
-
 body {
-    background-color: #888 ;
+    background-color: #888;
 }
-
-h1 {  
+h1 {
     font-family: "Impact", Charcoal, sans-serif;
-    font-size: 60px;
-    color: #222; 
+    font-size: 67px;
+    color: #222;
+    text-shadow: 2px 2px 5px #333366;
 }
-
 .center {
     display: block;
     width: 80%;
     margin: 0 auto;
 }
-
 .centerContainer {
     position: relative;
     left: 37%;
     width: 90%;
     margin-left: -30%;
     border-color: #888;
+        box-shadow: 0px 0px 0px #888;
 }
-
 img {
     width: 75%;
 }
-
 .thickborder {
     border: 6px solid #222;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-
 blockquote {
-     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-     border-left: 8px solid #222;
-     border-bottom-left-radius: 20px;
-     border-top-left-radius: 20px;
-     padding-left: 5%;
-     padding-right: 5%;
-     font-size: 107%;
-     color: 	#FFFAF0;
-     max-width: 370px;
-     text-align: justify;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-left: 8px solid #222;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 107%;
+    color: #FFFAF0;
+    text-shadow: 2px 2px 5px #333366;
+    max-width: 370px;
+    text-align: justify;
 }
-
-p { 
-     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-     text-align: right;
-     font-size: 97%;
-     color: 	#FFFAF0;
-     padding: 3px;
-     padding-top: 2%;
-     padding-bottom: 2%;
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: right;
+    font-size: 97%;
+    color: #FFFAF0;
+    text-shadow: 2px 2px 5px #333366;
+    padding: 3px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-
 div {
     display: block;
     border: 2px solid #222;
-    float:left;
+    box-shadow: 2px 2px 5px #333366;
+    float: left;
     margin: 5px;
-    height: 600px;
+    height: 560px;
     width: 30%;
 }
-
 selector {
     float: left;
 }
-
-
 @media screen and (min-width: 0) and (max-width: 600px) {
-    
-    h1{
+    h1 {
         font-size: 30px;
     }
-
-    p { 
-     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-     text-align: right;
-     font-size: 60%;
-     color: 	#FFFAF0;  
+    p {
+        font-size: 60%;
     }
-
-     .thickborder {
-    border: 2px solid #222;
-    box-sizing:border-box;
+    .thickborder {
+        border: 2px solid #222;
     }
-            
     blockquote {
-    
-     border-left: 2px solid #222;
-     position: center;
-     left: -25px;
-     padding-left: 7%;
-     padding-right: 5%;
-     font-size: 65%;
-     max-width: 400px;
+        border-left: 2px solid #222;
+        position: center;       
+        padding-left: 7%;
+        padding-right: 5%;
+        font-size: 65%;
+        max-width: 400px;
     }
-
     .centerContainer {
-    position: relative;
-    left: 37%;
-    width: 90%;
-    margin-left: -30%;
-    border-color: #888;
+        position: relative;
+        left: 46%;
+        width: 90%;
+        margin-left: -30%;
+        border-color: #888;
     }
-
     div {
-    display: block;
-    border: 2px solid #222;
-    float:left;
-    margin: 5px;
-    height: auto;
-    width: 70%;
+        display: block;
+        border: 2px solid #222;
+        float: left;
+        margin: 5px;
+        height: auto;
+        width: 80%;
     }
 }
-
-@media screen and (min-width:600px) and (max-width:870px)
- {  h1{
+@media screen and (min-width: 600px) and (max-width: 870px) {
+    h1 {
         font-size: 30px;
     }
     img {
-        width : 70%;
+        width: 70%;
     }
-         .thickborder {
-    border: 2.5px solid #222;
-    box-sizing:border-box;
+    .thickborder {
+        border: 2.5px solid #222;
     }
-
     div {
-    display: block;    
-    border: 2.5px solid #222;        
-    margin: 3px;
-    height: 540px;
-    width: 30%;
+        border: 2.5px solid #222;
+        margin: 3px;
+        height: 490px;
+        width: 30%;
     }
-
-    p { 
-    font-size: 70%;
+    p {
+        font-size: 70%;
     }
-
     blockquote {
-     border-left: 3px solid #222;
-     position: center;
-     left: -25px;
-     padding-right: 0%;
-     font-size: 72%;
-     max-width: 350%;
-     text-align: left;
+        border-left: 3px solid #222;
+        position: center;
+        left: -25px;
+        padding-right: 0%;
+        font-size: 72%;
+        max-width: 350%;
+        text-align: left;
     }
-    
-    }
-@media screen and (min-width:870px) and (max-width:1280px) {
-   h1{
-        font-size: 40px;
-    }
-    img {
-        width : 70%;
-    }
-
-    p { 
-     font-size: 95%;
-     color: 	#FFFAF0;
-    
-    }
-
-     .thickborder {
-    border: 4px solid #222;
-    box-sizing:border-box;
-    }
-            
-    blockquote {
-     border-left: 4px solid #222;
-     position: relative;
-     left: -5px;
-     padding-right: 5%;
-     font-size: 95%;
-     max-width: 190px;
-    }
-
-    .centerContainer {
-    position: relative;
-    left: 37%;
-    width: 90%;
-    margin-left: -30%;
-    border-color: #888;
-    }
-
-    div {
-    display: block;
-    border: 2px solid #222;
-    float:left;
-    margin: 5px;
-    height: 550px;
-    width: 30%;
 }
-
-
-
-@media screen and (min-width: 1281px) and (max-width: 1920px) {
-    img {
-        width : 65%;
+@media screen and (min-width: 870px) and (max-width: 1280px) {
+    h1 {
+        font-size: 48px;
     }
-    
-}}
+    img {
+        width: 70%;
+    }
+    p {
+        font-size: 95%;
+    }
+    .thickborder {
+        border: 4px solid #222;
+    }
+    blockquote {
+        border-left: 4px solid #222;
+        position: relative;
+        left: -5px;
+        padding-right: 5%;
+        font-size: 95%;
+        max-width: 190px;
+    }
+    div {
+        border: 2px solid #222;
+        float: left;
+        margin: 5px;
+        height: 530px;
+        width: 30%;
+    }
+    @media screen and (min-width: 1281px) and (max-width: 1920px) {
+        img {
+            width: 65%;
+        }
+    }
+}
