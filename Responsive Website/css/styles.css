@@ -91,7 +91,6 @@ selector {
         border-color: #888;
     }
     div {
-        display: block;
         border: 2px solid #222;
         float: left;
         margin: 5px;
